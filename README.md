@@ -1,36 +1,203 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DashAdmin Next
 
-## Getting Started
+A modern, responsive admin dashboard built with **Next.js, TypeScript, Tailwind CSS, Framer Motion, and Recharts**.
 
-First, run the development server:
+The dashboard provides a clean interface for managing products, clients, sales, and orders, with interactive charts, responsive tables, search functionality, and animated UI components.
+
+## ✨ Features
+
+* 📊 Overview dashboard with key statistics
+* 🛍️ Products management table
+* 👥 Clients management and search
+* 💰 Sales overview and analytics
+* 📦 Orders management and filtering
+* 📈 Interactive charts and data visualization
+* 🔎 Search functionality
+* 📱 Fully responsive layout
+* 🎨 Modern dark dashboard UI
+* ⚡ Smooth animations and transitions
+* 🧩 Reusable React components
+* 🗂️ Local JSON data source for dashboard content
+
+## 🛠️ Tech Stack
+
+* **Next.js 16**
+* **React 19**
+* **TypeScript**
+* **Tailwind CSS**
+* **Framer Motion**
+* **Recharts**
+* **Lucide React**
+* **Next.js Image**
+* **ESLint**
+
+## 📌 Dashboard Sections
+
+### Dashboard
+
+Provides an overview of the main business metrics, including:
+
+* Total Sales
+* Total Clients
+* Total Products
+* Stock
+* Sales Overview
+* Category Distribution
+* Order Status Distribution
+* Product Performance
+
+### Products
+
+Displays product information including:
+
+* Product name
+* Product ID
+* Category
+* Price
+* Stock
+* Sales
+* Actions
+
+### Clients
+
+Provides a responsive clients table with:
+
+* Client name
+* Email
+* Phone number
+* Country
+* Search functionality
+* Edit and delete actions
+
+### Sales
+
+Includes sales analytics such as:
+
+* Total Revenue
+* Average Order Value
+* Total Sales
+* Total Growth
+* Sales Overview
+* Category Distribution
+
+### Orders
+
+Provides an order management interface with:
+
+* Order ID
+* Client
+* Total
+* Status
+* Date
+* Country
+* Search functionality
+* Edit and delete actions
+
+## 📊 Data Visualization
+
+The dashboard uses **Recharts** to visualize data through interactive charts, including:
+
+* Sales overview
+* Category distribution
+* Order status distribution
+* Product performance
+
+## 📱 Responsive Design
+
+The interface is designed to work across:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile
+
+Tables and dashboard sections adapt to smaller screens for a better user experience.
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Mahmoud-nassar777/dashadmin-nexts.git
+```
+
+Navigate to the project:
+
+```bash
+cd dashadmin-nexts
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📂 Project Structure
 
-## Learn More
+```text
+dashadmin-nexts/
+├── app/
+│   ├── products/
+│   ├── users/
+│   ├── sales/
+│   ├── orders/
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components/
+│   ├── Header.tsx
+│   ├── Sidebar.tsx
+│   ├── StateCard.tsx
+│   ├── OrdersTable.tsx
+│   ├── UsersTable.tsx
+│   ├── SalesOverviewChart.tsx
+│   ├── CategoryDistributionChart.tsx
+│   └── ...
+│
+├── public/
+│   └── data/
+│       └── data.json
+│
+├── package.json
+├── tsconfig.json
+└── README.md
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🎯 Project Goals
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project was built to practice and demonstrate modern frontend development using the Next.js ecosystem, with a focus on:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* TypeScript
+* Reusable components
+* Responsive UI development
+* Data visualization
+* Component-based architecture
+* Client-side interactions
+* Modern dashboard interfaces
 
-## Deploy on Vercel
+## 👨‍💻 Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Mahmoud Nassar**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Frontend Developer focused on building modern, responsive web applications with React and Next.js.
+
+* GitHub: https://github.com/Mahmoud-nassar777
+* LinkedIn: https://www.linkedin.com/in/mahmoud-nassar-a83163323/
+* Portfolio: https://dev-mwn.vercel.app/
+
+## 📄 License
+
+This project is available for educational and portfolio purposes.
